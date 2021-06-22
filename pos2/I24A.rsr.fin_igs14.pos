@@ -1,0 +1,39 @@
+PBO Station Position Time Series. Reference Frame : IGS14
+Format Version: 1.1.0
+4-character ID: I24A
+Station name  : I24A_GPS        
+First Epoch   : 20021127 115900
+Last Epoch    : 20021128 115900
+Release Date  : 20181112 150003
+XYZ Reference position :   1231780.07932  4524913.56515  4310015.18575 (IGS14)
+NEU Reference position :    42.7767247314   74.7718416115 1011.08764 (IGS14/WGS84)
+Start Field Description
+YYYYMMDD      Year, month, day for the given position epoch
+HHMMSS        Hour, minute, second for the given position epoch
+JJJJJ.JJJJJ   Modified Julian day for the given position epoch
+X             X coordinate, Specified Reference Frame, meters
+Y             Y coordinate, Specified Reference Frame, meters
+Z             Z coordinate, Specified Reference Frame, meters
+Sx            Standard deviation of the X position, meters
+Sy            Standard deviation of the Y position, meters
+Sz            Standard deviation of the Z position, meters
+Rxy           Correlation of the X and Y position
+Rxz           Correlation of the X and Z position
+Ryz           Correlation of the Y and Z position
+Nlat          North latitude, WGS-84 ellipsoid, decimal degrees
+Elong         East longitude, WGS-84 ellipsoid, decimal degrees
+Height (Up)   Height relative to WGS-84 ellipsoid, m
+dN            Difference in North component from NEU reference position, meters
+dE            Difference in East component from NEU reference position, meters
+du            Difference in vertical component from NEU reference position, meters
+Sn            Standard deviation of dN, meters
+Se            Standard deviation of dE, meters
+Su            Standard deviation of dU, meters
+Rne           Correlation of dN and dE
+Rnu           Correlation of dN and dU
+Reu           Correlation of dEand dU
+Soln          "rapid", "final", "suppl/suppf", "campd", or "repro" corresponding to products  generated with rapid or final orbit products, in supplemental processing, campaign data processing or reprocessing
+End Field Description
+*YYYYMMDD HHMMSS JJJJJ.JJJJ         X             Y             Z            Sx        Sy       Sz     Rxy   Rxz    Ryz            NLat         Elong         Height         dN        dE        dU         Sn       Se       Su      Rne    Rnu    Reu  Soln
+ 20021127 115900 52605.4993  1231780.07915  4524913.57008  4310015.19109  0.00291  0.00556  0.00512  0.469  0.467  0.813      42.7767247379   74.7718416293 1011.09473     0.00073   0.00145   0.00709    0.00232  0.00248  0.00735  0.019 -0.087 -0.058 fin_i
+ 20021128 115900 52606.4993  1231780.07949  4524913.56022  4310015.18041  0.00328  0.00775  0.00657  0.468  0.456  0.873      42.7767247250   74.7718415937 1011.08056    -0.00071  -0.00147  -0.00708    0.00261  0.00285  0.00995  0.015 -0.227  0.110 fin_i

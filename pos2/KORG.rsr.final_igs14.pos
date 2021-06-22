@@ -1,0 +1,44 @@
+PBO Station Position Time Series. Reference Frame : IGS14
+Format Version: 1.1.0
+4-character ID: KORG
+Station name  : KORG_GPS        
+First Epoch   : 19990814 115900
+Last Epoch    : 20010806 115900
+Release Date  : 20201130 133421
+XYZ Reference position :    726639.28763  4528870.68737  4418298.32125 (IGS14)
+NEU Reference position :    44.1203449325   80.8848074982  858.27743 (IGS14/WGS84)
+Start Field Description
+YYYYMMDD      Year, month, day for the given position epoch
+HHMMSS        Hour, minute, second for the given position epoch
+JJJJJ.JJJJJ   Modified Julian day for the given position epoch
+X             X coordinate, Specified Reference Frame, meters
+Y             Y coordinate, Specified Reference Frame, meters
+Z             Z coordinate, Specified Reference Frame, meters
+Sx            Standard deviation of the X position, meters
+Sy            Standard deviation of the Y position, meters
+Sz            Standard deviation of the Z position, meters
+Rxy           Correlation of the X and Y position
+Rxz           Correlation of the X and Z position
+Ryz           Correlation of the Y and Z position
+Nlat          North latitude, WGS-84 ellipsoid, decimal degrees
+Elong         East longitude, WGS-84 ellipsoid, decimal degrees
+Height (Up)   Height relative to WGS-84 ellipsoid, m
+dN            Difference in North component from NEU reference position, meters
+dE            Difference in East component from NEU reference position, meters
+du            Difference in vertical component from NEU reference position, meters
+Sn            Standard deviation of dN, meters
+Se            Standard deviation of dE, meters
+Su            Standard deviation of dU, meters
+Rne           Correlation of dN and dE
+Rnu           Correlation of dN and dU
+Reu           Correlation of dEand dU
+Soln          "rapid", "final", "suppl/suppf", "campd", or "repro" corresponding to products  generated with rapid or final orbit products, in supplemental processing, campaign data processing or reprocessing
+End Field Description
+*YYYYMMDD HHMMSS JJJJJ.JJJJ         X             Y             Z            Sx        Sy       Sz     Rxy   Rxz    Ryz            NLat         Elong         Height         dN        dE        dU         Sn       Se       Su      Rne    Rnu    Reu  Soln
+ 19990814 115900 51404.4993   726639.29186  4528870.55548  4418298.19000  0.00359  0.01066  0.01024  0.432  0.441  0.878      44.1203448963   80.8848071850  858.09306    -0.00403  -0.02503  -0.18437    0.00363  0.00320  0.01442 -0.054 -0.040 -0.011 final
+ 19990815 115900 51405.4993   726639.29654  4528870.57354  4418298.20525  0.00623  0.01249  0.01168  0.314  0.319  0.877      44.1203448785   80.8848071630  858.11701    -0.00602  -0.02679  -0.16042    0.00426  0.00584  0.01670  0.060 -0.102 -0.055 final
+ 19990816 115900 51406.4993   726639.29231  4528870.55421  4418298.18424  0.00403  0.01010  0.00946  0.352  0.374  0.861      44.1203448665   80.8848071770  858.08820    -0.00735  -0.02567  -0.18923    0.00363  0.00373  0.01344 -0.046 -0.088 -0.017 final
+ 19990818 115900 51408.4993   726639.26649  4528870.47323  4418298.10996  0.00381  0.01176  0.01107  0.461  0.483  0.870      44.1203449131   80.8848073352  857.97615    -0.00216  -0.01303  -0.30128    0.00410  0.00334  0.01573 -0.102 -0.081 -0.033 final
+ 20010804 115900 52125.4993   726639.29116  4528870.88463  4418298.52027  0.00406  0.00998  0.00892  0.393  0.381  0.903      44.1203449945   80.8848078450  858.55621     0.00691   0.02771   0.27878    0.00301  0.00369  0.01315  0.075 -0.213 -0.044 final
+ 20010805 115900 52126.4993   726639.29149  4528870.88727  4418298.52237  0.00361  0.00775  0.00685  0.349  0.369  0.899      44.1203449915   80.8848078462  858.55958     0.00657   0.02780   0.28215    0.00237  0.00334  0.01016  0.038 -0.236 -0.070 final
+ 20010806 115900 52127.4993   726639.28355  4528870.88324  4418298.51663  0.00507  0.01016  0.00908  0.173  0.206  0.893      44.1203449872   80.8848079361  858.55182     0.00609   0.03499   0.27439    0.00318  0.00499  0.01328  0.008 -0.183  0.078 final
